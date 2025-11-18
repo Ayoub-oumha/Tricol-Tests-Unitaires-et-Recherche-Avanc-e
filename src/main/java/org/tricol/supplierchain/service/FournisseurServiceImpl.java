@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 import org.tricol.supplierchain.dto.request.FournisseurRequestDTO;
 import org.tricol.supplierchain.dto.request.FournisseurUpdateDTO;
 import org.tricol.supplierchain.dto.response.FournisseurResponseDTO;
+import org.tricol.supplierchain.dto.response.FournisseurResponseDTOpourEX1;
 import org.tricol.supplierchain.entity.Fournisseur;
 import org.tricol.supplierchain.exception.DuplicateResourceException;
 import org.tricol.supplierchain.exception.ResourceNotFoundException;
@@ -83,6 +84,5 @@ public class FournisseurServiceImpl implements FournisseurService {
 
         return fournisseurMapper.toResponseDTO(updated);
     }
-
 
 }

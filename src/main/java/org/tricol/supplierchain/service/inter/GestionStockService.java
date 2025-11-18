@@ -1,5 +1,6 @@
 package org.tricol.supplierchain.service.inter;
 
+import org.springframework.data.jpa.repository.Query;
 import org.tricol.supplierchain.dto.response.*;
 import org.tricol.supplierchain.entity.BonSortie;
 import org.tricol.supplierchain.entity.Fournisseur;
@@ -25,8 +26,7 @@ public interface GestionStockService {
     List<DeficitStockResponseDTO> verifyStockPourBonSortie(BonSortie bonSortie);
 
     Fournisseur getFournisseursSuggeresPourProduit(Long produitId);
-
-
+    List<MouvementStockResponseDTO> getResults(Long id, String type) ;
 
 
 }

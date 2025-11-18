@@ -88,15 +88,7 @@ public class GestionStockImpl implements GestionStockService {
                 .toList();
     }
 
-    @Override
-    public List<MouvementStockResponseDTO> getMouvementsByProduit(Long produitId) {
-        return mouvementStockRepository.findAll()
-                .stream()
-                .map(mouvementStockMapper::toResponseDTO)
-                .filter(m->m.getProduitId().equals(produitId))
-                .sorted(Comparator.comparing(MouvementStockResponseDTO::getDateMouvement))
-                .toList();
-    }
+
 
     @Override
     public BigDecimal getValorisationTotale() {
@@ -222,5 +214,22 @@ public class GestionStockImpl implements GestionStockService {
         return ligneCommandeRepository
                 .findDernierPrixAchat(produitId, fournisseurId)
                 .orElse(BigDecimal.ZERO);
+    }
+    @Override
+    public List<MouvementStockResponseDTO> getMouvementsByProduit(Long produitId) {
+        return mouvementStockRepository.findAll()
+                .stream()
+                .map(mouvementStockMapper::toResponseDTO)
+                .filter(m->m.getProduitId().equals(produitId))
+                .sorted(Comparator.comparing(MouvementStockResponseDTO::getDateMouvement))
+                .toList();
+    }
+    @Override
+    public List<MouvementStockResponseDTO> getResults(Long id, String type){
+        return mouvementStockRepository.findAll()
+                .stream()
+                .filter(m -> m.getProduit().getId() == id || m.getTypeMouvement().equals(type))
+                .map(m -> mouvementStockMapper.toResponseDTO(m))
+                .toList();
     }
 }

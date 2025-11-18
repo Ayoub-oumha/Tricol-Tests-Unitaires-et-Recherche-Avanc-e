@@ -22,6 +22,7 @@ C:\Users\lenovo\Desktop\2 anne youcode\lhcen\team_tricol_supplier_chain\src\main
 C:\Users\lenovo\Desktop\2 anne youcode\lhcen\team_tricol_supplier_chain\src\main\java\org\tricol\supplierchain\dto\response\CommandeFournisseurResponseDTO.java
 C:\Users\lenovo\Desktop\2 anne youcode\lhcen\team_tricol_supplier_chain\src\main\java\org\tricol\supplierchain\dto\response\DeficitStockResponseDTO.java
 C:\Users\lenovo\Desktop\2 anne youcode\lhcen\team_tricol_supplier_chain\src\main\java\org\tricol\supplierchain\dto\response\FournisseurResponseDTO.java
+C:\Users\lenovo\Desktop\2 anne youcode\lhcen\team_tricol_supplier_chain\src\main\java\org\tricol\supplierchain\dto\response\FournisseurResponseDTOpourEX1.java
 C:\Users\lenovo\Desktop\2 anne youcode\lhcen\team_tricol_supplier_chain\src\main\java\org\tricol\supplierchain\dto\response\LigneBonSortieResponseDTO.java
 C:\Users\lenovo\Desktop\2 anne youcode\lhcen\team_tricol_supplier_chain\src\main\java\org\tricol\supplierchain\dto\response\LigneCommandeResponseDTO.java
 C:\Users\lenovo\Desktop\2 anne youcode\lhcen\team_tricol_supplier_chain\src\main\java\org\tricol\supplierchain\dto\response\LotStockResponseDTO.java
@@ -50,6 +51,7 @@ C:\Users\lenovo\Desktop\2 anne youcode\lhcen\team_tricol_supplier_chain\src\main
 C:\Users\lenovo\Desktop\2 anne youcode\lhcen\team_tricol_supplier_chain\src\main\java\org\tricol\supplierchain\exception\OperationNotAllowedException.java
 C:\Users\lenovo\Desktop\2 anne youcode\lhcen\team_tricol_supplier_chain\src\main\java\org\tricol\supplierchain\exception\ResourceNotFoundException.java
 C:\Users\lenovo\Desktop\2 anne youcode\lhcen\team_tricol_supplier_chain\src\main\java\org\tricol\supplierchain\exception\StockInsuffisantException.java
+C:\Users\lenovo\Desktop\2 anne youcode\lhcen\team_tricol_supplier_chain\src\main\java\org\tricol\supplierchain\exercice\FournisseurConsumerExercice.java
 C:\Users\lenovo\Desktop\2 anne youcode\lhcen\team_tricol_supplier_chain\src\main\java\org\tricol\supplierchain\mapper\BonSortieMapper.java
 C:\Users\lenovo\Desktop\2 anne youcode\lhcen\team_tricol_supplier_chain\src\main\java\org\tricol\supplierchain\mapper\CommandeFournisseurMapper.java
 C:\Users\lenovo\Desktop\2 anne youcode\lhcen\team_tricol_supplier_chain\src\main\java\org\tricol\supplierchain\mapper\FournisseurMapper.java

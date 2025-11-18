@@ -8,8 +8,8 @@ import org.tricol.supplierchain.entity.LotStock;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-11-14T10:27:07+0100",
-    comments = "version: 1.6.3, compiler: javac, environment: Java 17.0.15 (Microsoft)"
+    date = "2025-11-18T20:59:11+0100",
+    comments = "version: 1.6.3, compiler: javac, environment: Java 17.0.12 (Oracle Corporation)"
 )
 @Component
 public class LotStockMapperImpl implements LotStockMapper {
